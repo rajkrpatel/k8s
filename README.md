@@ -1,4 +1,5 @@
 # k8s
+kubectl is only cli which resposbile for interacting with the k8s cluster via api server
 
 1) kubectl --version
 2) kubectl start
@@ -7,3 +8,7 @@
 5) kubectl logs pod-name
 6) kubectl events pod pod-name
 7) adding  -watch f;ag can be helpful to stream updates in the terminal
+8) kubectl confit set context minikube
+9) kubectl run <pod-name> --image= <image-name> // example kubectl run nginx --image=nginx:1.27.0
+10) kubectl get pods
+11) kubectl describe <resource> <name> /// example kubectl describe pod nginx
