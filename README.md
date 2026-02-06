@@ -12,3 +12,4 @@ kubectl is only cli which resposbile for interacting with the k8s cluster via ap
 9) kubectl run <pod-name> --image= <image-name> // example kubectl run nginx --image=nginx:1.27.0
 10) kubectl get pods
 11) kubectl describe <resource> <name> /// example kubectl describe pod nginx
+12) kubectl delete <resource> <name> // example kubectl delete pod alpine
