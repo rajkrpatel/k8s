@@ -15,5 +15,6 @@ kubectl is only cli which resposbile for interacting with the k8s cluster via ap
 12) kubectl delete <resource> <name> // example kubectl delete pod alpine
 13) kubectl expose pod nginx --type=NodePort --port=80
 14) kubectl get service
-15) kubectl delte service nginx
-16) 
+15) kubectl delete service nginx
+16) kubectl create -f nginx-pod.yaml // create manifest file for imperative command kubectl run <pod-name> --image= <image-name> // example kubectl run nginx --image=nginx:1.27.0
+17) kubectl create -f nginx-svc.yaml // create manifest file for imperative command kubectl expose pod nginx --type=NodePort --port=80
