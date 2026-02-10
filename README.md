@@ -28,4 +28,4 @@ kubectl is only cli which resposbile for interacting with the k8s cluster via ap
 25) kubectl get rs
 26) kubectlt describe rs replica-set-name
 27) kubectl describe deploy deployment-name
-28) 
+28) kubectl diff -f fine-name.yaml
