@@ -33,3 +33,4 @@ kubectl is only cli which resposbile for interacting with the k8s cluster via ap
 30) kubectl rollout undo deployment deployment-name // rollback to previous version
 31) kubectl rollout history deployment deployment-name --revision=1 -o yaml // check specific verion details
 32) kubectl scale deploy nginx-deployment --replicas=3 // temporary scale the deployment
+33) minikube service color-api-nodeport // create tunnel to access pods via cluster ip
