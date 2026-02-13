@@ -34,3 +34,9 @@ kubectl is only cli which resposbile for interacting with the k8s cluster via ap
 31) kubectl rollout history deployment deployment-name --revision=1 -o yaml // check specific verion details
 32) kubectl scale deploy nginx-deployment --replicas=3 // temporary scale the deployment
 33) minikube service color-api-nodeport // create tunnel to access pods via cluster ip
+34) kubectl get pods -Lapp
+35) kubectl get pods -Lapp -L tier
+36) kubectl get pods -l app=color-api
+37) kubectl get pods -l app=color-api -l tier=backend
+38) kubectl get pods -l 'app=color-api,tier=backend'
+39) kubectl get pods -l 'tier in (frontend)'
