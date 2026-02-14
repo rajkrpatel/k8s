@@ -42,4 +42,7 @@ kubectl is only cli which resposbile for interacting with the k8s cluster via ap
 39) kubectl get pods -l 'tier in (frontend)'
 40) kubectl get pods -n namespace-name
 41) kubectl config set-context --current --namespace=dev // set different namespace as default
-42) 
+42) kubectl get pods --all-namespaces
+43) kubectl get pods -A //get all the pods from all the names spaces
+44) kubectl describe resourcequota dev-quota -n namespace-name
+45) 
