@@ -40,3 +40,4 @@ kubectl is only cli which resposbile for interacting with the k8s cluster via ap
 37) kubectl get pods -l app=color-api -l tier=backend
 38) kubectl get pods -l 'app=color-api,tier=backend'
 39) kubectl get pods -l 'tier in (frontend)'
+40) kubectl get pods -n namespace-name
